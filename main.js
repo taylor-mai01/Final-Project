@@ -18,9 +18,7 @@ let dbManager = require('./dbManager');
 let main = express();
 let path = require('path')
 
-//Make different file 
-//Public folder
-//include in pug
+//Using a pug file to create the website page
 
 	main.set('views', './views');
 	main.set('view engine','pug');
@@ -30,6 +28,7 @@ let path = require('path')
 		res.render('index')
 
 	});
+
     //Login 
     main.get('/', function (req, res){
         if (!req.session.user){
