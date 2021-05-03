@@ -85,7 +85,8 @@ let path = require('path')
 	main.listen(6900, async ()=> {
         //start and wait for the DB connection
         try{
-            await dbManager.get("FinalProject");
+           await mongoose.connect('mongodb://localhost:27017/FinalProject', {useNewUrlParser: true, useUnifiedTopology: true })
+            //await dbManager.get("FinalProject");
         } catch (e){
             console.log(e.message);
         }
