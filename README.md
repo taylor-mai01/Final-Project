@@ -12,15 +12,19 @@ In this project we are demonstarting a quiz with many diffrent topics like math 
 
 1. clone the respotory from https://github.com/taylor-mai01/Final-Project
 
-2. nmp init
+2. cd into Final-Project 
 
-3. nmp install pug 
+3. npm init
 
-4. nmp install express 
+4. nmp install pug 
 
-5. cd into Final-Project 
+5. nmp install express 
 
-6. run node main.js 
+6. npm install mongodb
 
-7. go to you browser and type http://localhost:6900
+7. cd into Final-Project 
+
+9. run node main.js 
+
+10. go to you browser and type http://localhost:6900
 
