@@ -57,7 +57,7 @@ function check(){
 	
 	
 	//var pictures = ["public/win.gif", "public/meh.jpeg", "public/lose.gif"]; //Images based on their score
-	var messages = ["WOW! You're Smart", "So close", "I have seen better", "Go back to school","Try Harder","Try Harder","Try Harder","Try Harder","Try Harder","Try Harder","Try Harder", "Try Harder"]; //The feedback after their 
+	var messages = ["WOW! You're Smart", "So close", "I have seen better", "Try Harder","Try Harder","Try Harder","Try Harder","Try Harder","Try Harder","Try Harder", "Try Harder","Go back to school"]; //The feedback after their 
 	//scores are revealed
 	var score;
 
