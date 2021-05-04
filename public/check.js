@@ -38,11 +38,11 @@ function check(){
 		correct++; //If got correct increases score by 1
 
 	}
-	if (question7 == "Silence") { //Question 7's answer
+	if (question7 == "The Silence") { //Question 7's answer
 		correct++; //If got correct increases score by 1
 
 	}
-	if (question8 == "A Holly Month") { //Question 8's answer
+	if (question8 == "A Holy Month") { //Question 8's answer
 		correct++; //If got correct increases score by 1
 
 	}
@@ -50,7 +50,7 @@ function check(){
 		correct++; //If got correct increases score by 1
 	}
 
-	if (question10 == "baby") { //Question 10's answer
+	if (question10 == "baby"|| question10 == "Baby") { //Question 10's answer
 		correct++; //If got correct increases score by 1
 	}
 	
