@@ -22,9 +22,7 @@ In this project we are demonstarting a quiz with many diffrent topics like math 
 
 6. npm install mongodb
 
-7. cd into Final-Project 
+7. run node main.js 
 
-9. run node main.js 
-
-10. go to you browser and type http://localhost:6900
+8. go to you browser and type http://localhost:6900
 
