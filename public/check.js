@@ -55,15 +55,6 @@ function check(){
 		correct++; //If got correct increases score by 1
 	}
 	
-
-
-
-
-
-
-
-	//check.js into public 
-	//include in script tag
 	
 	//var pictures = ["public/win.gif", "public/meh.jpeg", "public/lose.gif"]; //Images based on their score
 	var messages = ["WOW! You're Smart", "So close", "I have seen better", "Go back to school","Try Harder","Try Harder","Try Harder","Try Harder","Try Harder","Try Harder","Try Harder", "Try Harder"]; //The feedback after their 
@@ -71,7 +62,6 @@ function check(){
 	var score;
 
 	//If statements to tally the users score
-	
 	
 	if (correct == 10) {
 		score = 0;
@@ -113,9 +103,6 @@ function check(){
 		score = 10;
 	}
 	
-
-
-
 	document.getElementById("after_submit").style.visibility = "visible";
 	//What is displayed after they submit
 	document.getElementById("message").innerHTML = messages[score];
