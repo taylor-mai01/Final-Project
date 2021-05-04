@@ -14,7 +14,7 @@ function check(){
 
 	var correct = 0;
 
-	
+	//Fahima Kashem
 	if (question1 == "28") { //Question 1's answer ,
 		correct++; //If got correct increases score by 1
 }
