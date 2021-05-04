@@ -1,10 +1,11 @@
 function check(){
-
+	//Fahima Kashem
 	var question1 = document.quiz.question1.value;
 	var question2 = document.quiz.question2.value;
 	var question3 = document.quiz.question3.value;
 	var question4 = document.quiz.question4.value;
 	var question5 = document.quiz.question5.value;
+	//Timothy Hood
 	var question6 = document.quiz.question6.value;
 	var question7 = document.quiz.question7.value;
 	var question8 = document.quiz.question8.value;
@@ -13,7 +14,7 @@ function check(){
 
 	var correct = 0;
 
-
+	
 	if (question1 == "28") { //Question 1's answer ,
 		correct++; //If got correct increases score by 1
 }
