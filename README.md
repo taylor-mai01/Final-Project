@@ -16,9 +16,9 @@ In this project we are demonstarting a quiz with many diffrent topics like math 
 
 3. npm init
 
-4. nmp install pug 
+4. npm install pug 
 
-5. nmp install express 
+5. npm install express 
 
 6. npm install mongodb
 
