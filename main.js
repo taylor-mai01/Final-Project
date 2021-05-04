@@ -1,12 +1,3 @@
-//Check the users answers 
-//
-//Credit to Kevin Briggs YouTube: “Java Script Tutorial: Make a quiz
-//
-//@author Timothy Hood, Taylor Maiorini, Fahima Khashem
-//
-//version 4/26/21
-//Check the users answers 
-//
 //Credit to Kevin Briggs YouTube: “Java Script Tutorial: Make a quiz
 //
 //@author Timothy Hood, Taylor Maiorini, Fahima Khashem
