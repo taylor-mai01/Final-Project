@@ -30,7 +30,7 @@ let path = require('path')
 	});
 
     //Login 
-    main.get('/', function (req, res){
+ /*   main.get('/', function (req, res){
         if (!req.session.user){
             res.redirect('/login');
         }
@@ -84,7 +84,9 @@ let path = require('path')
 	main.listen(6900, async ()=> {
         //start and wait for the DB connection
         try{
-           await mongoose.connect('mongodb://localhost:27017/FinalProject', {useNewUrlParser: true, useUnifiedTopology: true })
+    */   
+	//couldn't figure out how to get it to work
+	await mongoose.connect('mongodb://localhost:27017/FinalProject', {useNewUrlParser: true, useUnifiedTopology: true })
             //await dbManager.get("FinalProject");
         } catch (e){
             console.log(e.message);
