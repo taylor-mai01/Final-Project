@@ -25,19 +25,29 @@ In this project we are demonstarting a quiz with many diffrent topics like math,
 
 6. npm install mongodb
 
-7. run mongodb
+7. npm insall mongoose
 
-8. type in in new terminal mongorestore 
+8. run mongo
 
-9. exist mongo
+9. run mongo 
 
-10. run mongo 
-11. run show dbs 
+10. run show dbs 
 
-12. run node main.js 
-13. run use FinalProject
-14. show collections 
-15. db.questions.find().pretty()
+11. run use FinalProject
+
+12. show collections 
+
+13. db.questions.find().pretty()
+
+14. exit mongo using control c
+
+15.run node main.js
 
 16. go to you browser and type http://localhost:6900
+
+17.take the quiz
+
+18. press "I'm done" button to submit the quiz 
+
+19. scroll back up to the top of the page to see your quiz results.
 
