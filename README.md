@@ -10,7 +10,7 @@ In this project we are demonstarting a quiz with many diffrent topics like math 
 
 :steps to run Final-Project: 
 
-1. clone the respotory from https://github.com/taylor-mai01/Final-Project
+1. clone the respotory 
 
 2. cd into Final-Project 
 
