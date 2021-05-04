@@ -17,8 +17,9 @@ let express = require("express");
 let dbManager = require('./dbManager');
 let main = express();
 let path = require('path')
-
-//Using a pug file to create the website page
+//var router = require('../routes/router.js')
+let mongoose = require('mongoose');
+mongoose.set('bufferCommands', false);
 
 	main.set('views', './views');
 	main.set('view engine','pug');
@@ -81,11 +82,12 @@ let path = require('path')
 	         res.render('signup', {msg: "Passwords must match"});
     }
         });
+	*/
+	//await dbManager.get("FinalProject");
 	main.listen(6900, async ()=> {
         //start and wait for the DB connection
         try{
-    */   
-	//couldn't figure out how to get it to work
+       	//await dbManager.get("FinalProject");
 	await mongoose.connect('mongodb://localhost:27017/FinalProject', {useNewUrlParser: true, useUnifiedTopology: true })
             //await dbManager.get("FinalProject");
         } catch (e){
